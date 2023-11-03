@@ -6,18 +6,23 @@ import './index.css'
 import Home from './views/Home';
 import Contacts from './views/Contacts';
 import NotFound from './views/NotFound';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Header/>
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/Contacts'  element={<Contacts />} />
         <Route path= '*' element={<NotFound />} />
+        
       </Routes>
     </BrowserRouter>
+    <Footer/>
   </React.StrictMode>
 );
