@@ -1,5 +1,5 @@
 import React from 'react'
-import './man.css'
+
 import manpic from './man.png'
 import Lines from './lines1.svg'
 const Mansection = () => {
