@@ -1,5 +1,6 @@
 import React from 'react'
 import logotop from '../images/Logotop.svg'
+import '../index.css'
 function Header() {
   return (
     <div>
@@ -32,10 +33,10 @@ function Header() {
           </div>
           <div className="bottom-menu">
             <div className="menu-option">
-              <a href="http://localhost:3001">Home</a>
+              <a href="http://localhost:3000">Home</a>
               <a href="#">Sevice</a>
               <a href="http://127.0.0.1:5500/crito.html">News</a>
-              <a href="http://localhost:3001/Contacts">Contact</a>
+              <a href="http://localhost:3000/Contacts">Contact</a>
             </div>
             <div><button className="btn btn-primary" type="submit">login&nbsp;<i
               className="fa-regular fa-arrow-up-right fa-beat-fade"></i></button></div>
